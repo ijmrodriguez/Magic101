@@ -1,10 +1,12 @@
-public class Unicorn
+public class Unicorn extends MagicAnimal
 {
+    //Variable
     double hornSharpness;
 
-    @Override
-    public String toString()
+    //Constructor
+    public Unicorn(String name, String type, int speed, double weight, double hornSharpness)
     {
-        return super.toString();
+        super(name, type, speed, weight);
+        this.hornSharpness = hornSharpness;
     }
 }

@@ -1,11 +1,14 @@
-public class Griffith
+public class Griffith extends MagicAnimal
 {
+    //Variables
     String featherColor;
     int wings;
 
-    @Override
-    public String toString()
+    //Constructor
+    public Griffith(String name, String type, int speed, double weight, String featherColor, int wings)
     {
-        return super.toString();
+        super(name, type, speed, weight);
+        this.featherColor = featherColor;
+        this.wings = wings;
     }
 }

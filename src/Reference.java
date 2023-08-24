@@ -1,8 +1,13 @@
 public class Reference
 {
+    //Variables
     String name;
     MagicAnimal[] racers;
     int numRacers;
 
-    //methods
+    //Constructor
+    public Reference(String name)
+    {
+        this.name = name;
+    }
 }
