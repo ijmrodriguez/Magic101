@@ -1,12 +1,14 @@
 public class Unicorn extends MagicAnimal
 {
     //Variable
-    double hornSharpness;
+    private double hornSharpness;
+    private String fur;
 
-    //Constructor
-    public Unicorn(String name, String type, int speed, double weight, double hornSharpness)
+    //Constructors
+    public Unicorn(String name, String type, int speed, double weight, double hornSharpness, String fur)
     {
         super(name, type, speed, weight);
         this.hornSharpness = hornSharpness;
+        this.fur = fur;
     }
 }

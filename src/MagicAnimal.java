@@ -3,7 +3,7 @@ public class MagicAnimal
     //Variables
     public String name, type; int speed; double weight;
 
-    //Constructor
+    //Constructors
     public MagicAnimal(String name, String type, int speed, double weight)
     {
         this.name = name;
@@ -12,6 +12,10 @@ public class MagicAnimal
         this.weight = weight;
     }
 
+    public MagicAnimal(String name)
+    {
+        this.name = "";
+    }
     //Getters
     public String getName()
     {
