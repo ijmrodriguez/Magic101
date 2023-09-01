@@ -37,4 +37,19 @@ public class Dragon extends MagicAnimal
  {
   this.numsWings = numsWings;
  }
+
+ //toString
+
+ @Override
+ public String toString()
+ {
+  return "Dragon{" +
+          "numsWings=" + numsWings +
+          ", scaleColor='" + scaleColor + '\'' +
+          ", name='" + name + '\'' +
+          ", type='" + type + '\'' +
+          ", speed=" + speed +
+          ", weight=" + weight +
+          '}';
+ }
 }
