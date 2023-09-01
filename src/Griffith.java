@@ -12,4 +12,44 @@ public class Griffith extends MagicAnimal
         this.wings = wings;
     }
 
+    public Griffith(String name)
+    {
+        super(name);
+        this.name = name;
+    }
+
+    //Getters
+    public String getFeatherColor()
+    {
+        return featherColor;
+    }
+
+    public int getWings()
+    {
+        return wings;
+    }
+
+    //Setters
+    public void setFeatherColor(String featherColor)
+    {
+        this.featherColor = featherColor;
+    }
+
+    public void setWings(int wings)
+    {
+        this.wings = wings;
+    }
+
+    //toString
+    @Override
+    public String toString() {
+        return "Griffith{" +
+                "featherColor='" + featherColor + '\'' +
+                ", wings=" + wings +
+                ", name='" + name + '\'' +
+                ", type='" + type + '\'' +
+                ", speed=" + speed +
+                ", weight=" + weight +
+                '}';
+    }
 }
