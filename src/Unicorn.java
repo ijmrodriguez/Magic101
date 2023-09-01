@@ -11,4 +11,10 @@ public class Unicorn extends MagicAnimal
         this.hornSharpness = hornSharpness;
         this.fur = fur;
     }
+    
+    public Unicorn(String name)
+    {
+        super(name);
+        this.name = name;
+    }
 }
