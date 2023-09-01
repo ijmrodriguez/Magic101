@@ -19,67 +19,22 @@ public class Dragon extends MagicAnimal
  }
 
  //Getters
- public String getName()
- {
-  return name;
- }
-
- public String getType()
- {
-  return type;
- }
-
- public int getSpeed()
- {
-  return speed;
- }
-
- public double getWeight()
- {
-  return weight;
- }
-
  public int getNumsWings()
  {
   return numsWings;
  }
-
- private String getScaleColor()
+ public String getScaleColor()
  {
   return scaleColor;
  }
 
  //Setters
- public void setName(String name)
+ public void setScaleColor(String scaleColor)
  {
-  this.name = name;
+  this.scaleColor = scaleColor;
  }
-
- public void setType(String type)
+ public void setNumsWings(int numsWings)
  {
-  this.type = type;
- }
-
- public void setSpeed(int speed)
- {
-  this.speed = speed;
- }
-
- public void setWeight(double weight)
- {
-  this.weight = weight;
- }
-
- //toString
- public String toString()
- {
-  return "Dragon{" +
-          "name='" + name + '\'' +
-          ", type='" + type + '\'' +
-          ", speed=" + speed + '\'' +
-          ", weight=" + weight + '\'' +
-          ", wings='" + numsWings + '\'' +
-          ", color='" + scaleColor +
-          '}';
+  this.numsWings = numsWings;
  }
 }

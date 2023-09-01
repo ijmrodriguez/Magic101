@@ -12,17 +12,12 @@ public class Unicorn extends MagicAnimal
         this.fur = fur;
     }
 
-    public Unicorn(String name)
-    {
-        super(name);
-        this.name = name;
-    }
-
     //Getters
     public double getHornSharpness()
     {
         return hornSharpness;
     }
+
     public String getFur()
     {
         return fur;
