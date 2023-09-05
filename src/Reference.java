@@ -2,7 +2,6 @@ public class Reference
 {
     //Variables
     String name;
-
     //Constructors
     public Reference(String name)
     {
